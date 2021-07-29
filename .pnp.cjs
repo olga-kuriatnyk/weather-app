@@ -40,6 +40,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:48452efb21b8ffe97cd44032ff5f3a0017c5aa0447c19ba06b929f0a58050deacc96a822e05ac349649820585a5fb7ae1f6300f4f2851359c53aa82548143e94#npm:12.8.3"],
             ["axios", "npm:0.21.1"],
             ["bootstrap", "virtual:48452efb21b8ffe97cd44032ff5f3a0017c5aa0447c19ba06b929f0a58050deacc96a822e05ac349649820585a5fb7ae1f6300f4f2851359c53aa82548143e94#npm:4.6.0"],
+            ["eslint-config-react", "npm:1.1.7"],
+            ["eslint-config-react-app", "virtual:48452efb21b8ffe97cd44032ff5f3a0017c5aa0447c19ba06b929f0a58050deacc96a822e05ac349649820585a5fb7ae1f6300f4f2851359c53aa82548143e94#npm:6.0.0"],
             ["moment", "npm:2.29.1"],
             ["react", "npm:17.0.2"],
             ["react-bootstrap", "virtual:48452efb21b8ffe97cd44032ff5f3a0017c5aa0447c19ba06b929f0a58050deacc96a822e05ac349649820585a5fb7ae1f6300f4f2851359c53aa82548143e94#npm:1.6.1"],
@@ -9540,6 +9542,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["eslint-config-react", [
+        ["npm:1.1.7", {
+          "packageLocation": "./.yarn/cache/eslint-config-react-npm-1.1.7-6e3860b2e1-15d3d7f78e.zip/node_modules/eslint-config-react/",
+          "packageDependencies": [
+            ["eslint-config-react", "npm:1.1.7"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["eslint-config-react-app", [
         ["npm:6.0.0", {
           "packageLocation": "./.yarn/cache/eslint-config-react-app-npm-6.0.0-c5908e735c-b265852455.zip/node_modules/eslint-config-react-app/",
@@ -9547,6 +9558,60 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-react-app", "npm:6.0.0"]
           ],
           "linkType": "SOFT",
+        }],
+        ["virtual:48452efb21b8ffe97cd44032ff5f3a0017c5aa0447c19ba06b929f0a58050deacc96a822e05ac349649820585a5fb7ae1f6300f4f2851359c53aa82548143e94#npm:6.0.0", {
+          "packageLocation": "./.yarn/__virtual__/eslint-config-react-app-virtual-90257c42a5/0/cache/eslint-config-react-app-npm-6.0.0-c5908e735c-b265852455.zip/node_modules/eslint-config-react-app/",
+          "packageDependencies": [
+            ["eslint-config-react-app", "virtual:48452efb21b8ffe97cd44032ff5f3a0017c5aa0447c19ba06b929f0a58050deacc96a822e05ac349649820585a5fb7ae1f6300f4f2851359c53aa82548143e94#npm:6.0.0"],
+            ["@types/babel-eslint", null],
+            ["@types/eslint", null],
+            ["@types/eslint-plugin-flowtype", null],
+            ["@types/eslint-plugin-import", null],
+            ["@types/eslint-plugin-jest", null],
+            ["@types/eslint-plugin-jsx-a11y", null],
+            ["@types/eslint-plugin-react", null],
+            ["@types/eslint-plugin-react-hooks", null],
+            ["@types/eslint-plugin-testing-library", null],
+            ["@types/typescript-eslint__eslint-plugin", null],
+            ["@types/typescript-eslint__parser", null],
+            ["@typescript-eslint/eslint-plugin", null],
+            ["@typescript-eslint/parser", null],
+            ["babel-eslint", null],
+            ["confusing-browser-globals", "npm:1.0.10"],
+            ["eslint", null],
+            ["eslint-plugin-flowtype", null],
+            ["eslint-plugin-import", null],
+            ["eslint-plugin-jest", null],
+            ["eslint-plugin-jsx-a11y", null],
+            ["eslint-plugin-react", null],
+            ["eslint-plugin-react-hooks", null],
+            ["eslint-plugin-testing-library", null]
+          ],
+          "packagePeers": [
+            "@types/babel-eslint",
+            "@types/eslint-plugin-flowtype",
+            "@types/eslint-plugin-import",
+            "@types/eslint-plugin-jest",
+            "@types/eslint-plugin-jsx-a11y",
+            "@types/eslint-plugin-react-hooks",
+            "@types/eslint-plugin-react",
+            "@types/eslint-plugin-testing-library",
+            "@types/eslint",
+            "@types/typescript-eslint__eslint-plugin",
+            "@types/typescript-eslint__parser",
+            "@typescript-eslint/eslint-plugin",
+            "@typescript-eslint/parser",
+            "babel-eslint",
+            "eslint-plugin-flowtype",
+            "eslint-plugin-import",
+            "eslint-plugin-jest",
+            "eslint-plugin-jsx-a11y",
+            "eslint-plugin-react-hooks",
+            "eslint-plugin-react",
+            "eslint-plugin-testing-library",
+            "eslint"
+          ],
+          "linkType": "HARD",
         }],
         ["virtual:51dfe87d8bc1bacde429222d20ce86f34e7512707e10fde6b09410a729db2b7d3961a0e0227c75fb71b48d1326d6462bc2bc5d52050db78bfd803ab53593a1d5#npm:6.0.0", {
           "packageLocation": "./.yarn/__virtual__/eslint-config-react-app-virtual-c799e79e73/0/cache/eslint-config-react-app-npm-6.0.0-c5908e735c-b265852455.zip/node_modules/eslint-config-react-app/",
@@ -18681,6 +18746,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:48452efb21b8ffe97cd44032ff5f3a0017c5aa0447c19ba06b929f0a58050deacc96a822e05ac349649820585a5fb7ae1f6300f4f2851359c53aa82548143e94#npm:12.8.3"],
             ["axios", "npm:0.21.1"],
             ["bootstrap", "virtual:48452efb21b8ffe97cd44032ff5f3a0017c5aa0447c19ba06b929f0a58050deacc96a822e05ac349649820585a5fb7ae1f6300f4f2851359c53aa82548143e94#npm:4.6.0"],
+            ["eslint-config-react", "npm:1.1.7"],
+            ["eslint-config-react-app", "virtual:48452efb21b8ffe97cd44032ff5f3a0017c5aa0447c19ba06b929f0a58050deacc96a822e05ac349649820585a5fb7ae1f6300f4f2851359c53aa82548143e94#npm:6.0.0"],
             ["moment", "npm:2.29.1"],
             ["react", "npm:17.0.2"],
             ["react-bootstrap", "virtual:48452efb21b8ffe97cd44032ff5f3a0017c5aa0447c19ba06b929f0a58050deacc96a822e05ac349649820585a5fb7ae1f6300f4f2851359c53aa82548143e94#npm:1.6.1"],
